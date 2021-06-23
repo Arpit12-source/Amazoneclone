@@ -1,0 +1,30 @@
+.emptycard{
+    width: 65ew;
+    height: 20vh;
+    border: none;
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.emptycard__image{
+    width: 200px;
+    height: 200px;
+}
+.emptycard__box{
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.emptycard__buttons{
+    display: flex;
+}
+.emptycard__button{
+    margin: 20px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+}

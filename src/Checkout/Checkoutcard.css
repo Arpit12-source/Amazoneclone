@@ -1,0 +1,35 @@
+.card{
+    width:65vw;
+    height: 20vh;
+    border: none;
+    /* border-radius: 10px; */
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    
+}
+.card__first{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.card__second{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 5px;
+}
+.card__rating{
+    display : flex;
+    flex-direction: row;
+}
+.card__image{
+    width: 10vw;
+    height: 15vh;
+}
+.card__second button{
+    width: 200px;
+    margin: 20px;
+    border: none;
+    background-color: rgb(255,216,20);
+}

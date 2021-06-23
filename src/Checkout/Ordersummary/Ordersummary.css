@@ -1,0 +1,28 @@
+.ordercard{
+    width: 28vw;
+    border: none;
+    margin-top:20px ;
+    background-color: white;
+    align-items: center;
+    
+}
+.ordercard__button{
+    width: 25vw;
+    background-color: rgb(255,216,20);
+    border: none;
+    border-color: #a88734 #9c7e31 #846a29;
+    height: 25px;
+    margin: 15px;
+    
+}
+.ordercard__line{
+    display: flex;
+
+}
+.ordercard__line1{
+    flex: 1;
+    margin: 10px;
+}
+.ordercard__line2{
+    margin: 10px;
+}

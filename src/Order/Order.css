@@ -1,0 +1,37 @@
+.order{
+    /* background-color: white; */
+}
+.order__firstblock{
+    display: flex;
+    flex-direction: row;
+    width: 100ew;
+    height: 30ev;
+    align-content: center;
+    justify-content: center;
+    margin-top: 52px;
+    margin: 30px;
+    padding: 30px;
+}
+.order__firstblock h1 {
+    flex: 1;
+}
+.orders__nav{
+    display: flex;
+    border-bottom: 1px solid black;
+    list-style-type: none;
+    margin: 30px;
+    color: blue;
+    
+}
+.orders__nav li {
+    margin: 20px;
+    text-decoration: none;
+   
+}
+.orders__nav li a{
+    color: blue;
+    text-decoration: none;
+}
+.orders__nav li a :hover{
+    text-decoration: underline;
+}

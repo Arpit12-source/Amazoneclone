@@ -1,0 +1,15 @@
+.checkout{
+    background-color: rgb(234,237,237);
+    height: 100vh;
+}
+.checkout__layout{
+    display: flex;
+
+}
+.checkout__layout1{
+    width: 70vw;
+}
+.checkout__layout2{
+    width: 30vw;
+    
+}
